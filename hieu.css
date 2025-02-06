@@ -1,0 +1,65 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: peru;
+}
+
+.container {
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    grid-template-rows: repeat(2, 150px);
+    gap: 20px;
+    justify-content: center;
+}
+
+button {
+    font-size: 20px;
+    font-weight: bold;
+    width: 150px;
+    height: 150px;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.2s ease-out;
+}
+
+#real {
+    background-color: yellow;
+    color: black;
+}
+
+#fake {
+    background-color: blue;
+    color: white;
+}
+
+#not {
+    background-color: green;
+    color: white;
+}
+
+#wrong {
+    background-color: red;
+    color: white;
+}
+
+.hidden {
+    visibility: hidden;
+}
+h1{
+    text-align: center;
+}
